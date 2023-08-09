@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './App.module.css';
-import powerImage from './assets/powered.png';
+import powerImage from './assets/powered (1).png';
 import { GridItem } from './components/GridItem';
 import leftArrowImage from './assets/leftarrow.png'
 
