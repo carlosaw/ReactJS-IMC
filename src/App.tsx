@@ -1,12 +1,9 @@
 import { useState } from 'react';
 import styles from './App.module.css';
-import powerImage from './assets/powered (1).png';
+import powerImage from './assets/powered.png';
 import { GridItem } from './components/GridItem';
 import leftArrowImage from './assets/leftarrow.png'
-
 import { levels, calculateImc, Level } from './helpers/imc';
-import { isDisabled } from '@testing-library/user-event/dist/utils';
-import { toBeDisabled, toBeEnabled } from '@testing-library/jest-dom/matchers';
 
 const App = () => {
   const [heightField, setHeightField] = useState<number>(0);
